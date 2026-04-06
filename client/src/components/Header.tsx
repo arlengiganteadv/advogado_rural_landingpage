@@ -39,7 +39,7 @@ export default function Header() {
             className="hidden sm:flex items-center gap-2"
             asChild
           >
-            <a href="tel:+5511999999999">
+            <a href="tel:+5573981524621">
               <Phone className="w-4 h-4" />
               <span className="hidden sm:inline">Ligar</span>
             </a>
@@ -49,7 +49,7 @@ export default function Header() {
             className="bg-primary hover:bg-primary/90 flex items-center gap-2"
             asChild
           >
-            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/message/H6S4OIKKB47UG1" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="w-4 h-4" />
               <span className="hidden sm:inline">WhatsApp</span>
             </a>

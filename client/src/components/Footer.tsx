@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Instagram, MessageCircle } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -54,22 +54,22 @@ export default function Footer() {
             <h4 className="font-semibold text-base">Contato</h4>
             <div className="space-y-3 text-sm">
               <a
-                href="tel:+5511999999999"
+                href="tel:+5573981524621"
                 className="flex items-center gap-2 hover:text-accent transition-colors"
               >
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>+55 (11) 99999-9999</span>
+                <span>+55 (73) 98152-4621</span>
               </a>
               <a
-                href="mailto:contato@advogadorural.com.br"
+                href="mailto:arlengigante.adv@gmail.com"
                 className="flex items-center gap-2 hover:text-accent transition-colors"
               >
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>contato@advogadorural.com.br</span>
+                <span>arlengigante.adv@gmail.com</span>
               </a>
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-1" />
-                <span>São Paulo, SP - Brasil</span>
+                <span>Avenida Siqueira Campos, nº. 1086, Candeias, Vitória da Conquista, BA - Brasil, CEP 45.028-010</span>
               </div>
             </div>
           </div>
@@ -82,6 +82,15 @@ export default function Footer() {
               Siga-nos nas redes sociais para dicas e atualizações sobre direito rural.
             </p>
             <div className="flex items-center gap-4">
+              <a
+                href="https://wa.me/message/H6S4OIKKB47UG1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center hover:bg-primary/40 transition-colors"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="w-5 h-5" />
+              </a>
               <a
                 href="https://linkedin.com/in/advogadorural"
                 target="_blank"

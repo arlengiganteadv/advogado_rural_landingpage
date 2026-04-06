@@ -78,7 +78,7 @@ export default function FAQSection() {
             Entre em contato conosco para esclarecer qualquer questão sobre seus direitos e serviços.
           </p>
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/message/H6S4OIKKB47UG1"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-2 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
