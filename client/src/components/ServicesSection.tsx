@@ -3,7 +3,12 @@ import { CheckCircle2 } from "lucide-react";
 
 const services = [
   {
-    title: "Renegociação de Dívidas",
+    title: "Prorrogação com Carência",
+    description: "Prorrogação de dívidas rurais com até 3+ anos de carência e prazo de até 10 anos para pagar. Respiro financeiro garantido.",
+    icon: "⏰",
+  },
+  {
+    title: "Negociação de Dívidas",
     description: "Negociação estratégica com instituições financeiras para redução de dívidas e alongamento de prazos.",
     icon: "📋",
   },
@@ -41,10 +46,10 @@ export default function ServicesSection() {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-12 md:mb-16">
           <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wide mb-3">
-            Como Posso Ajudar
+            Soluções Completas
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Serviços Especializados
+            Serviços Especializados em Prorrogação e Defesa
           </h2>
           <p className="text-lg text-muted-foreground">
             Soluções jurídicas completas para proteger seus interesses e recuperar sua saúde financeira.

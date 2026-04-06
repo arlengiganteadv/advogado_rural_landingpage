@@ -9,9 +9,9 @@ export default function AboutSection() {
           {/* Image */}
           <div className="relative">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663441746606/BZnEGFzuyUxG4dwdvBxxSv/rural-producer-support-4e6Dor2hutGGrAeYB4aVtF.webp"
-              alt="Consulta com Advogado"
-              className="rounded-lg shadow-xl"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663441746606/BZnEGFzuyUxG4dwdvBxxSv/IMG_6803.JPG_e8027362.webp"
+              alt="Advogado Especializado em Direito Rural"
+              className="rounded-lg shadow-xl border-4 border-primary/20"
             />
             <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl"></div>
           </div>
@@ -29,6 +29,9 @@ export default function AboutSection() {
                 Com mais de 15 anos de atuação exclusiva em defesa de produtores rurais contra instituições financeiras, 
                 ofereço soluções jurídicas personalizadas que protegem seus interesses e recuperam sua saúde financeira.
               </p>
+              <p className="text-base text-primary font-semibold bg-primary/10 p-4 rounded-lg">
+                🌟 Especialidade: Prorrogação de dívidas rurais com até <strong>3+ anos de carência</strong> e <strong>10 anos para pagar</strong>.
+              </p>
             </div>
 
             {/* Expertise Cards */}
@@ -37,8 +40,8 @@ export default function AboutSection() {
                 <div className="flex items-start gap-3">
                   <Award className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-foreground">Especialização Jurídica</h3>
-                    <p className="text-sm text-muted-foreground">Direito Bancário Rural, Crédito Rural e Defesa do Produtor</p>
+                  <h3 className="font-semibold text-foreground">Especialização Jurídica</h3>
+                  <p className="text-sm text-muted-foreground">Direito Bancário Rural, Prorrogação com Carência, Crédito Rural e Defesa do Produtor</p>
                   </div>
                 </div>
               </Card>
